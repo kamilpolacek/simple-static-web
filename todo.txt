@@ -1,0 +1,4 @@
+1. odkaz cely element
+2. lepsi responzive css
+3. lepsi print css
+4. zmenit homepage

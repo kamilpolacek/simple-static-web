@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://imap.fit.cvut.cz/roundcube/?_task=mail&_action=compose&_id=18722858895cfe5a4c0bdc3 -->
+<html lang="cs" class=" js chrome webkit"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CVUT FIT Roundcube :: Napsat zprávu</title>
+<meta name="viewport" content="" id="viewport">
+<link rel="shortcut icon" href="https://imap.fit.cvut.cz/roundcube/skins/larry/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="./CVUT FIT Roundcube __ Napsat zprávu_files/styles.min.css">
+<link rel="stylesheet" type="text/css" href="./CVUT FIT Roundcube __ Napsat zprávu_files/mail.min.css">
+<link rel="stylesheet" type="text/css" href="./CVUT FIT Roundcube __ Napsat zprávu_files/style.min.css">
+<link rel="stylesheet" type="text/css" href="./CVUT FIT Roundcube __ Napsat zprávu_files/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="./CVUT FIT Roundcube __ Napsat zprávu_files/browser.css">
+<script type="text/javascript" src="./CVUT FIT Roundcube __ Napsat zprávu_files/ui.min.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="./CVUT FIT Roundcube __ Napsat zprávu_files/googiespell.min.css">
+
+<script src="./CVUT FIT Roundcube __ Napsat zprávu_files/jquery.min.js" type="text/javascript"></script>
+<script src="./CVUT FIT Roundcube __ Napsat zprávu_files/common.min.js" type="text/javascript"></script>
+<script src="./CVUT FIT Roundcube __ Napsat zprávu_files/app.min.js" type="text/javascript"></script>
+<script src="./CVUT FIT Roundcube __ Napsat zprávu_files/publickey.min.js" type="text/javascript"></script>
+<script src="./CVUT FIT Roundcube __ Napsat zprávu_files/list.min.js" type="text/javascript"></script>
+<script src="./CVUT FIT Roundcube __ Napsat zprávu_files/tinymce.min.js" type="text/javascript"></script>
+<script src="./CVUT FIT Roundcube __ Napsat zprávu_files/editor.min.js" type="text/javascript"></script>
+<script src="./CVUT FIT Roundcube __ Napsat zprávu_files/googiespell.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) 2005-2014 The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"mail","standard_windows":false,"locale":"cs_CZ","devel_mode":null,"cookie_domain":"","cookie_path":"\/","cookie_secure":true,"skin":"larry","refresh_interval":120,"session_lifetime":28800,"action":"compose","comm_path":".\/?_task=mail","user_id":"c12757660ea8eea0ddd7bdbf223a4f5c","compose_extwin":false,"date_format":"yy-mm-dd","browser_capabilities":{"pdf":"1","flash":"0","tiff":"0","webp":"1"},"compose_id":"18722858895cfe5a4c0bdc3","session_id":"cb3419dff14fb00b2729f866eaf5fe63","mailbox":"INBOX","top_posting":false,"sig_below":false,"recipients_separator":",","save_localstorage":true,"max_disclosed_recipients":5,"is_sent":false,"mimetypes":["text\/plain","text\/html","text\/xml","image\/jpeg","image\/gif","image\/png","image\/bmp","image\/webp","application\/x-javascript","application\/pdf"],"drafts_mailbox":"Drafts","draft_autosave":300,"default_font":"Verdana,Geneva,sans-serif","default_font_size":"10pt","compose_mode":"reply","show_sig":true,"reply_msgid":"\u003C219aee7db2f3e4be4e906dd7f22d799c@fit.cvut.cz\u003E","pagecount":0,"current_page":0,"signatures":[],"identities":{"6279":{"email":"polackam@fit.cvut.cz"}},"autocomplete_max":15,"autocomplete_min_length":3,"composebody":"composebody","editor_config":{"mode":"","lang":"cs_CZ","skin_path":"skins\/larry","spellcheck":1,"spelldict":0,"disabled_plugins":[],"disabled_buttons":[],"extra_plugins":["emoticons"],"extra_buttons":["emoticons"]},"spellcheck_langs":"Arabic (\u0627\u0644\u0639\u0631\u0628\u064a\u0629)=ar,Armenian (\u0540\u0561\u0575\u0565\u0580\u0565\u0576)=am,Basque (Euskara)=eu,Breton (Brezhoneg)=br,Bulgarian (\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438)=bg,Catalan (Catal\u00e0)=ca,Croatian (Hrvatski)=hr,+Czech (\u010cesky)=cs,Danish (Dansk)=da,Dutch (Nederlands)=nl,English (GB)=en_GB,English (US)=en_US,Esperanto=eo,Estonian (Eesti)=et,Finnish (Suomi)=fi,French (Fran\u00e7ais)=fr_FR,Galician (Galego)=gl,German (Deutsch)=de_DE,German (Schweiz)=de_CH,Greek (\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac)=el,Hebrew (\u05e2\u05d1\u05e8\u05d9\u05ea)=he,Hungarian (Magyar)=hu,Icelandic (\u00cdslenska)=is,Irish (Gaedhilge)=ga,Italian (Italiano)=it,Kurdish (Kurmanc\u00ee)=ku,Latvian (Latvie\u0161u)=lv,Lithuanian (Lietuvi\u0161kai)=lt,Persian (\u0641\u0627\u0631\u0633\u06cc)=fa,Polish (Polski)=pl,Portuguese (Brasil)=pt_BR,Portuguese (Portugu\u00eas)=pt_PT,Romanian (Rom\u00e2ne\u015fte)=ro,Russian (\u0420\u0443\u0441\u0441\u043a\u0438\u0439)=ru,Slovak (Sloven\u010dina)=sk,Slovenian (Sloven\u0161\u010dina)=sl,Spanish (Espa\u00f1ol)=es,Swedish (Svenska)=sv,Ukrainian (\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430)=uk,Welsh (Cymraeg)=cy","spell_langs":{"ar":"Arabic (\u0627\u0644\u0639\u0631\u0628\u064a\u0629)","am":"Armenian (\u0540\u0561\u0575\u0565\u0580\u0565\u0576)","eu":"Basque (Euskara)","br":"Breton (Brezhoneg)","bg":"Bulgarian (\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438)","ca":"Catalan (Catal\u00e0)","hr":"Croatian (Hrvatski)","cs":"Czech (\u010cesky)","da":"Danish (Dansk)","nl":"Dutch (Nederlands)","en_GB":"English (GB)","en_US":"English (US)","eo":"Esperanto","et":"Estonian (Eesti)","fi":"Finnish (Suomi)","fr_FR":"French (Fran\u00e7ais)","gl":"Galician (Galego)","de_DE":"German (Deutsch)","de_CH":"German (Schweiz)","el":"Greek (\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac)","he":"Hebrew (\u05e2\u05d1\u05e8\u05d9\u05ea)","hu":"Hungarian (Magyar)","is":"Icelandic (\u00cdslenska)","ga":"Irish (Gaedhilge)","it":"Italian (Italiano)","ku":"Kurdish (Kurmanc\u00ee)","lv":"Latvian (Latvie\u0161u)","lt":"Lithuanian (Lietuvi\u0161kai)","fa":"Persian (\u0641\u0627\u0631\u0633\u06cc)","pl":"Polish (Polski)","pt_BR":"Portuguese (Brasil)","pt_PT":"Portuguese (Portugu\u00eas)","ro":"Romanian (Rom\u00e2ne\u015fte)","ru":"Russian (\u0420\u0443\u0441\u0441\u043a\u0438\u0439)","sk":"Slovak (Sloven\u010dina)","sl":"Slovenian (Sloven\u0161\u010dina)","es":"Spanish (Espa\u00f1ol)","sv":"Swedish (Svenska)","uk":"Ukrainian (\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430)","cy":"Welsh (Cymraeg)"},"spell_lang":"cs","max_filesize":2097152,"filesizeerror":"Soubor p\u0159es\u00e1hl maxim\u00e1ln\u00ed velikost 2,0 MB","max_filecount":"20","filecounterror":"M\u016f\u017eete nahr\u00e1t maxim\u00e1ln\u011b 20 soubor\u016f najednou.","attachments":[],"filedrop":{"action":"upload","fieldname":"_attachments"},"textresponses":[],"request_token":"rxlsDrrHEQAW1mAhCORPZXxufRhLz2MF"});
+rcmail.add_label({"loading":"Na\u010d\u00edt\u00e1m...","servererror":"Chyba serveru!","connerror":"Chyba p\u0159ipojen\u00ed (Selhalo p\u0159ipojeni k serveru)!","requesttimedout":"Do\u0161lo k vypr\u0161en\u00ed po\u017eadavku","refreshing":"Obnovuji...","windowopenerror":"Vyskakovac\u00ed okno bylo zablokov\u00e1no!","uploadingmany":"Nahr\u00e1v\u00e1m soubory...","close":"Zav\u0159\u00edt","vcard_attachments.addvcardmsg":"P\u0159idat vCard do adres\u00e1\u0159e","vcard_attachments.vcardsavefailed":"Nelze ulo\u017eit vCard","vcard_attachments.attachvcard":"P\u0159ipojit vCard","vcard_attachments.vcard":"vCard","vcard_attachments.vcardattached":"vCard soubor p\u0159ipojen.","nosubject":"(bez predmetu)","nosenderwarning":"Zadejte e-mailovou adresu odes\u00edlatele","norecipientwarning":"Zadejte, pros\u00edm, alespo\u0148 jednoho p\u0159\u00edjemce","nosubjectwarning":"P\u0159edm\u011bt nebyl vypln\u011bn. P\u0159ejete si jej zadat nyn\u00ed?","cancel":"Konec","nobodywarning":"Opravdu chtete odeslat pr\u00e1zdnou zpr\u00e1vu?","notsentwarning":"Zpr\u00e1va nebyla odesl\u00e1na a obsahuje neulo\u017een\u00e9 zm\u011bny. P\u0159ejete si zm\u011bny zahodit?","notuploadedwarning":"Je\u0161t\u011b nebyly nahr\u00e1ny v\u0161echny p\u0159\u00edlohy. Po\u010dkejte pros\u00edm nebo nahr\u00e1v\u00e1n\u00ed zru\u0161te.","savingmessage":"Ukl\u00e1d\u00e1m zpr\u00e1vu...","sendingmessage":"Odes\u00edl\u00e1m zpr\u00e1vu...","messagesaved":"Zpr\u00e1va ulo\u017eena do Rozepsan\u00e9","converting":"Odstra\u0148uji form\u00e1tov\u00e1n\u00ed ze zpr\u00e1vy...","editorwarning":"P\u0159epnut\u00edm re\u017eimu editoru ztrat\u00edte ve\u0161ker\u00e9 form\u00e1tov\u00e1n\u00ed. Chcete pokra\u010dovat?","searching":"Vyhled\u00e1v\u00e1m...","uploading":"Nahr\u00e1v\u00e1m soubor...","fileuploaderror":"Nahr\u00e1v\u00e1n\u00ed souboru selhalo","sendmessage":"Odeslat zpr\u00e1vu nyn\u00ed","newresponse":"Vytvo\u0159it novou odpov\u011b\u010f","responsename":"N\u00e1zev","responsetext":"Text odpov\u011bdi","save":"Ulo\u017eit","savingresponse":"Ukl\u00e1d\u00e1m text odpov\u011bdi...","restoresavedcomposedata":"Byla nalezena d\u0159\u00edve vytvo\u0159en\u00e1 ale neodeslan\u00e1 zpr\u00e1va.\n\nP\u0159edm\u011bt: $subject\nUlo\u017eeno: $date\n\nP\u0159ejete si obnovit tuto zpr\u00e1vu?","restoremessage":"Obnovit zpr\u00e1vu?","delete":"Smazat","restore":"Obnovit","ignore":"Ignorovat","selectimportfile":"Pros\u00edm vyberte soubor k nahr\u00e1n\u00ed","messageissent":"Zpr\u00e1va ji\u017e byla odesl\u00e1na, ov\u0161em je\u0161t\u011b nebyla ulo\u017eena. P\u0159ejete si ji ulo\u017eit nyn\u00ed?","loadingdata":"Na\u010d\u00edt\u00e1m data...","nopubkeyfor":"Nenalezen validn\u00ed ve\u0159ejn\u00fd kl\u00ed\u010d pro $email","nopubkeyforsender":"Pro Va\u0161i identitu odes\u00edlatele se nena\u0161el \u017e\u00e1dn\u00fd platn\u00fd ve\u0159ejn\u00fd kl\u00ed\u010d. Chcete spr\u00e1vu za\u0161ifrovat pro p\u0159\u00edjemce?","encryptnoattachments":"P\u0159\u00edlohy, kter\u00e9 jste u\u017e ulo\u017eili na server, nen\u00ed mo\u017en\u00e9 za\u0161ifrovat. Pros\u00edm p\u0159idejte je znovu, v editoru pro \u0161ifrovan\u00ed.","encryptedsendialog":"Odes\u00edl\u00e1n\u00ed \u0161ifrovan\u00e9 zpr\u00e1vy","searchpubkeyservers":"P\u0159ejete si prohledat servery s kl\u00ed\u010di k nalezen\u00ed chyb\u011bj\u00edc\u00edch kl\u00ed\u010d\u016f?","importpubkeys":"Import ve\u0159ejn\u00fdch kl\u00ed\u010d\u016f","encryptpubkeysfound":"Byly nalezeny n\u00e1sleduj\u00edc\u00ed ve\u0159ejn\u00e9 kl\u00ed\u010de:","search":"Hledat","import":"Import","keyid":"ID Kl\u00ed\u010de","keylength":"Bit\u016f","keyexpired":"Vypr\u0161el\u00fd","keyrevoked":"Odvolan\u00fd","keyimportsuccess":"Ve\u0159ejn\u00fd kl\u00ed\u010d $key \u00fasp\u011b\u0161n\u011b p\u0159id\u00e1n do va\u0161eho \u00falo\u017ei\u0161t\u011b kl\u00ed\u010d\u016f","keyservererror":"Selhalo z\u00edsk\u00e1v\u00e1n\u00ed kl\u00ed\u010de ze serveru s kl\u00ed\u010di","attaching":"P\u0159ikl\u00e1d\u00e1m soubor...","namex":"Jm\u00e9no","attachmentrename":"P\u0159ejmenovat p\u0159\u00edlohu","disclosedrecipwarning":"V\u0161ichni p\u0159\u00edjemci uvid\u00ed adresy ostatn\u00edch p\u0159\u00edjemc\u016f. Pro ochranu soukrom\u00ed p\u0159\u00edjemc\u016f m\u016f\u017eete pou\u017e\u00edt pole Skryt\u00e1 kopie (Bcc).","disclosedreciptitle":"P\u0159\u00edli\u0161 mnoho ve\u0159ejn\u00fdch p\u0159\u00edjemc\u016f","bccinstead":"Pou\u017e\u00edt skrytou kopii","nosubjecttitle":"\u017d\u00e1dn\u00fd p\u0159edm\u011bt","errortitle":"Do\u0161lo k chyb\u011b!","toggleadvancedoptions":"P\u0159epnout pokro\u010dil\u00e9 mo\u017enosti","autocompletechars":"Napi\u0161te alespo\u0148 $min znak\u016f pro automatick\u00e9 dopln\u011bn\u00ed","autocompletemore":"Napi\u0161te v\u00edce znak\u016f. Nalezeno p\u0159\u00edli\u0161 mnoho polo\u017eek","selectimage":"Vybrat obr\u00e1zek","addimage":"P\u0159idat obr\u00e1zek","selectmedia":"Vybrat video","addmedia":"P\u0159idat video","checking":"Kontroluji..."});
+rcmail.gui_container("topline-left","topline-left");
+rcmail.gui_container("topline-center","topline-center");
+rcmail.gui_container("topline-right","topline-right");
+rcmail.gui_container("taskbar","taskbar");
+rcmail.gui_container("toolbar","compose-toolbar");
+rcmail.gui_container("compose-contacts-toolbar","compose-contacts-toolbar");
+rcmail.gui_container("composeoptions","composeoptions");
+rcmail.gui_container("attachmentmenu","attachmentoptionsmenu");
+rcmail.register_button('attach-vcard', 'rcmbtn100', 'link', 'listbutton vcard', '', '');
+rcmail.register_button('logout', 'rcmbtn102', 'link', '', '', '');
+rcmail.register_button('mail', 'rcmbtn103', 'link', '', 'button-mail button-selected', '');
+rcmail.register_button('addressbook', 'rcmbtn104', 'link', '', 'button-addressbook button-selected', '');
+rcmail.register_button('settings', 'rcmbtn105', 'link', '', 'button-settings button-selected', '');
+rcmail.register_button('logout', 'rcmbtn106', 'link', '', 'button-logout', '');
+rcmail.register_button('list', 'rcmbtn107', 'link', 'button back', '', '');
+rcmail.register_button('send', 'rcmbtn108', 'link', 'button send', '', '');
+rcmail.register_button('savedraft', 'rcmbtn109', 'link', 'button savedraft', '', '');
+rcmail.register_button('spellcheck', 'rcmbtn110', 'link', 'button spellcheck', 'button spellcheck pressed', '');
+rcmail.register_button('insert-sig', 'rcmbtn112', 'link', 'button insertsig', '', '');
+rcmail.register_button('compose-encrypted', 'rcmbtn113', 'link', 'button encrypt', 'button encrypt selected', '');
+rcmail.gui_object('qsearchbox', 'contactsearchbox');
+rcmail.register_button('reset-search', 'rcmbtn114', 'link', '', '', '');
+rcmail.gui_object('addressbookslist', 'directorylist');
+rcmail.gui_object('contactslist', 'contacts-table');
+rcmail.register_button('add-recipient', 'rcmbtn115', 'link', 'listbutton addto', '', '');
+rcmail.register_button('add-recipient', 'rcmbtn116', 'link', 'listbutton addcc', '', '');
+rcmail.register_button('add-recipient', 'rcmbtn117', 'link', 'listbutton addbcc', '', '');
+rcmail.register_button('firstpage', 'rcmbtn118', 'link', 'icon firstpage', '', '');
+rcmail.register_button('previouspage', 'rcmbtn119', 'link', 'icon prevpage', '', '');
+rcmail.register_button('nextpage', 'rcmbtn120', 'link', 'icon nextpage', '', '');
+rcmail.register_button('lastpage', 'rcmbtn121', 'link', 'icon lastpage', '', '');
+rcmail.gui_object('messageform', 'form');
+rcmail.register_button('extwin', 'rcmbtn122', 'link', '', 'button extwin pressed', '');
+rcmail.gui_object('attachmentlist', 'attachment-list');
+rcmail.gui_object('filedrop', 'compose-attachments');
+rcmail.register_button('send', 'rcmbtn123', 'input', '', '', '');
+rcmail.register_button('savedraft', 'rcmbtn124', 'input', '', '', '');
+rcmail.register_button('list', 'rcmbtn125', 'input', '', '', '');
+rcmail.gui_object('uploadform', 'uploadformFrm');
+rcmail.gui_object('responseslist', 'responseslist');
+rcmail.register_button('save-response', 'rcmbtn126', 'link', 'active', '', '');
+rcmail.register_button('responses', 'rcmbtn127', 'link', 'active', '', '');
+rcmail.register_button('open-attachment', 'attachmenuopen', 'link', 'icon active', '', '');
+rcmail.register_button('download-attachment', 'attachmenudownload', 'link', 'icon active', '', '');
+rcmail.register_button('rename-attachment', 'attachmenurename', 'link', 'icon active', '', '');
+rcmail.gui_object('message', 'messagestack');
+</script>
+
+<script type="text/javascript" src="./CVUT FIT Roundcube __ Napsat zprávu_files/vcardattach.min.js"></script>
+<script type="text/javascript" src="./CVUT FIT Roundcube __ Napsat zprávu_files/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./CVUT FIT Roundcube __ Napsat zprávu_files/jquery.ui.datepicker-cs.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+var UI = new rcube_mail_ui();
+</script>
+
+<div id="header">
+<div id="topline" role="banner" aria-labelledby="aria-label-topnav">
+	<h2 id="aria-label-topnav" class="voice">Ovládání okna</h2>
+	<div class="topleft">
+		
+					<a class="about-link" onclick="UI.show_about(this);return false" id="rcmbtn101" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#">O programu</a>
+					</div>
+	
+	<div class="topright">
+	
+			<span class="username">polackam@fit.cvut.cz</span>
+		<a class="button-logout" id="rcmbtn102" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=logout" onclick="return rcmail.command(&#39;switch-task&#39;,&#39;logout&#39;,this,event)" tabindex="0" aria-disabled="false">Odhlásit</a>
+	
+	</div>
+</div>
+<div id="topnav">
+	<h2 id="aria-label-tasknav" class="voice">Úlohy aplikace</h2>
+	<div id="taskbar" class="topright" role="navigation" aria-labelledby="aria-label-tasknav">
+		<a class="button-mail button-selected" id="rcmbtn103" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=mail" onclick="return rcmail.command(&#39;switch-task&#39;,&#39;mail&#39;,this,event)" tabindex="-1" aria-disabled="true"><span class="button-inner">E-mail</span><span class="tooltip">E-mail</span></a>
+		<a class="button-addressbook" id="rcmbtn104" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=addressbook" onclick="return rcmail.command(&#39;switch-task&#39;,&#39;addressbook&#39;,this,event)" tabindex="0" aria-disabled="false"><span class="button-inner">Kontakty</span><span class="tooltip">Kontakty</span></a>
+		
+		<a class="button-settings" id="rcmbtn105" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=settings" onclick="return rcmail.command(&#39;switch-task&#39;,&#39;settings&#39;,this,event)" tabindex="0" aria-disabled="false"><span class="button-inner">Nastavení</span><span class="tooltip">Nastavení</span></a>
+		<a class="button-logout" id="rcmbtn106" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=logout" onclick="return rcmail.command(&#39;switch-task&#39;,&#39;logout&#39;,this,event)" tabindex="0" aria-disabled="false"><span class="button-inner">Odhlásit</span><span class="tooltip">Odhlásit</span></a>
+		<span class="minmodetoggle" role="presentation"></span>
+	</div>
+	<img src="./CVUT FIT Roundcube __ Napsat zprávu_files/roundcube_logo.png" id="toplogo" alt="Logo" onclick="if(window.rcmail)rcmail.command(&#39;switch-task&#39;,&#39;mail&#39;)">
+</div>
+
+<br style="clear:both">
+</div>
+
+
+<div id="mainscreen">
+
+<h1 class="voice">CVUT FIT Roundcube :: Napsat zprávu</h1>
+
+<!-- toolbar -->
+<h2 id="aria-label-toolbar" class="voice">Panel nástrojů aplikace</h2>
+<div id="messagetoolbar" class="toolbar fullwidth" role="toolbar" aria-labelledby="aria-label-toolbar">
+	<a class="button back" tabindex="2" id="rcmbtn107" role="button" data-tabindex="2" aria-disabled="false" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=list" onclick="return rcmail.command(&#39;list&#39;,&#39;&#39;,this,event)">Konec</a>
+	
+	<span class="spacer"></span>
+	<a class="button send" title="Odeslat zprávu nyní" tabindex="2" id="rcmbtn108" role="button" data-tabindex="2" aria-disabled="false" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;send&#39;,&#39;&#39;,this,event)">Odeslat</a>
+	<a class="button savedraft" title="Uložit do rozepsaných" tabindex="2" id="rcmbtn109" role="button" data-tabindex="2" aria-disabled="false" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;savedraft&#39;,&#39;&#39;,this,event)">Uložit</a>
+	<span class="spacer"></span>
+		<span class="dropbutton">
+		<a class="button spellcheck" title="Zkontrolovat pravopis" tabindex="2" id="rcmbtn110" role="button" data-tabindex="2" aria-disabled="false" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;spellcheck&#39;,&#39;&#39;,this,event)">Pravopis</a>
+		<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#languages" class="dropbuttontip" id="spellmenulink" onclick="UI.toggle_popup(&#39;spellmenu&#39;,event);return false" aria-haspopup="true" aria-expanded="false" tabindex="2">Select Spell Language</a>
+	</span>
+		<a class="button attach" title="Přidat přílohu" onclick="rcmail.upload_input(&#39;uploadform&#39;)" aria-haspopup="true" aria-expanded="false" tabindex="2" id="rcmbtn111" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#">Přiložit</a>
+	<a class="button insertsig disabled" title="Vložit podpis" tabindex="-1" id="rcmbtn112" role="button" data-tabindex="2" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;insert-sig&#39;,&#39;&#39;,this,event)">Podpis</a>
+	<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#responses" class="button responses" label="responses" title="Vložit odpověd" id="responsesmenulink" unselectable="on" onmousedown="return false" onclick="UI.toggle_popup(&#39;responsesmenu&#39;,event);return false" tabindex="2" aria-haspopup="true" aria-expanded="false" aria-owns="textresponsesmenu">Odpovědi</a>
+	<a class="button encrypt disabled" title="Šifrovat zprávu pomocí Mailvelope" tabindex="-1" style="display:none" id="rcmbtn113" role="button" data-tabindex="2" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;compose-encrypted&#39;,&#39;&#39;,this,event)">Šifrovat</a>
+	
+</div>
+
+<div id="mainscreencontent">
+
+<div id="composeview-left" style="width: 200px;">
+
+<!-- inline address book -->
+<div id="compose-contacts" class="uibox listbox" role="region" aria-labelledby="aria-label-composecontacts">
+<h2 id="aria-label-composecontacts" class="boxtitle">Kontakty</h2>
+	<div class="listsearchbox" role="search" aria-labelledby="aria-label-composequicksearch">
+		<h3 id="aria-label-composequicksearch" class="voice">Formulář pro vyhledávání kontaktů</h3>
+		<div class="searchbox">
+			<label for="contactsearchbox" class="voice">Vstup pro vyhledávání kontaktů</label>
+			<form name="rcmqsearchform" onsubmit="rcmail.command(&#39;search&#39;); return false" style="display:inline" action="https://imap.fit.cvut.cz/roundcube/?_task=mail" method="get"><input name="_q" id="contactsearchbox" type="text"></form>
+
+			<a id="searchmenulink" class="iconbutton searchicon"> </a>
+			<a class="iconbutton reset" title="Zrušit vyhledávání" id="rcmbtn114" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;reset-search&#39;,&#39;&#39;,this,event)" tabindex="0" aria-disabled="false"> </a>
+		</div>
+	</div>
+	<ul id="directorylist" class="treelist listing"><li id="rcmliMA" class="addressbook"><a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#list" rel="0" onclick="return rcmail.command(&#39;list-addresses&#39;,&#39;0&#39;,this)">Osobní kontakty</a></li>
+<li id="rcmliRklU" class="addressbook"><a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#list" rel="FIT" onclick="return rcmail.command(&#39;list-addresses&#39;,&#39;FIT&#39;,this)">CVUT FIT</a></li>
+</ul>
+
+	<div class="scroller withfooter" tabindex="-1" style="top: 128px;">
+		<table id="contacts-table" class="listing iconized" role="listbox" aria-multiselectable="true" tabindex="0"><tbody></tbody></table>
+
+	</div>
+<div class="boxfooter">
+	<a title="Adresát" class="listbutton addto disabled" id="rcmbtn115" role="button" tabindex="-1" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;add-recipient&#39;,&#39;to&#39;,this,event)"><span class="inner">To+</span></a><a title="Kopie" class="listbutton addcc disabled" id="rcmbtn116" role="button" tabindex="-1" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;add-recipient&#39;,&#39;cc&#39;,this,event)"><span class="inner">Cc+</span></a><a title="Skrytá kopie" class="listbutton addbcc disabled" id="rcmbtn117" role="button" tabindex="-1" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;add-recipient&#39;,&#39;bcc&#39;,this,event)"><span class="inner">Bcc+</span></a><a class="listbutton vcard disabled" title="Připojit vCard" id="rcmbtn100" role="button" tabindex="-1" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;attach-vcard&#39;,&#39;&#39;,this,event)"><span class="inner">vCard</span></a>
+
+</div>
+<div class="boxpagenav">
+	<a class="icon firstpage disabled" title="Zobrazit první zprávy" id="rcmbtn118" role="button" tabindex="-1" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;firstpage&#39;,&#39;&#39;,this,event)">První</a>
+	<a class="icon prevpage disabled" title="Předchozí" id="rcmbtn119" role="button" tabindex="-1" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;previouspage&#39;,&#39;&#39;,this,event)">Předchozí</a>
+	<a class="icon nextpage disabled" title="Další" id="rcmbtn120" role="button" tabindex="-1" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;nextpage&#39;,&#39;&#39;,this,event)">Následující</a>
+	<a class="icon lastpage disabled" title="Zobrazit poslední zprávy" id="rcmbtn121" role="button" tabindex="-1" aria-disabled="true" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;lastpage&#39;,&#39;&#39;,this,event)">Poslední</a>
+</div>
+</div>
+
+</div>
+
+<div id="composeview-right" role="main" style="left: 212px;">
+
+<form name="form" method="post" id="compose-content" class="uibox" action="https://imap.fit.cvut.cz/roundcube/?_task=mail" style="overflow: hidden;">
+<input type="hidden" name="_token" value="rxlsDrrHEQAW1mAhCORPZXxufRhLz2MF">
+
+<!-- message headers -->
+<div id="composeheaders" role="region" aria-labelledby="aria-label-composeheaders">
+<h2 id="aria-label-composeheaders" class="voice">Hlavičky zprávy</h2>
+
+<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#options" id="composeoptionstoggle" class="moreheaderstoggle remove" title="Přepnout možnosti kompozice" aria-expanded="true" style="cursor: pointer;"><span class="iconlink"></span></a>
+
+<table class="headers-table compose-headers">
+<tbody>
+	<tr>
+		<td class="title"><label for="_from">Odesílatel</label></td>
+		<td class="editfield">
+			<input type="hidden" name="_task" value="mail"><input type="hidden" name="_action" value="send"><input type="hidden" name="_id" value="18722858895cfe5a4c0bdc3"><input type="hidden" name="_attachments"><select name="_from" id="_from" tabindex="1" onchange="rcmail.change_identity(this)">
+<option value="6279" selected="">Kamil Poláček &lt;polackam@fit.cvut.cz&gt;</option>
+</select>
+
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#identities" onclick="return rcmail.command(&#39;identities&#39;)" class="iconlink edit" tabindex="0">Upravit identity</a>
+		</td>
+	</tr><tr>
+		<td class="title top"><label for="_to">Adresát</label></td>
+		<td class="editfield"><textarea name="_to" spellcheck="false" id="_to" cols="70" rows="1" tabindex="1" style="height: 14px;" autocomplete="off" aria-autocomplete="list" aria-expanded="false" role="combobox">Tomáš Martinec &lt;martit13@fit.cvut.cz&gt;</textarea>
+</td>
+	</tr><tr id="compose-cc">
+		<td class="title top">
+			<label for="_cc">Kopie</label>
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#cc" onclick="return UI.hide_header_row(&#39;cc&#39;);" class="iconbutton cancel" title="Smazat" tabindex="3">Smazat Kopie</a>
+		</td>
+		<td class="editfield"><textarea name="_cc" spellcheck="false" id="_cc" cols="70" rows="1" tabindex="1" style="height: 14px;" autocomplete="off" aria-autocomplete="list" aria-expanded="false" role="combobox"></textarea></td>
+	</tr><tr id="compose-bcc">
+		<td class="title top">
+			<label for="_bcc">Skrytá kopie</label>
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#bcc" onclick="return UI.hide_header_row(&#39;bcc&#39;);" class="iconbutton cancel" title="Smazat" tabindex="3">Smazat Skrytá kopie</a>
+		</td>
+		<td class="editfield"><textarea name="_bcc" spellcheck="false" id="_bcc" cols="70" rows="1" tabindex="1" style="height: 14px;" autocomplete="off" aria-autocomplete="list" aria-expanded="false" role="combobox"></textarea></td>
+	</tr><tr id="compose-replyto">
+		<td class="title top">
+			<label for="_replyto">Odpověď na</label>
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#replyto" onclick="return UI.hide_header_row(&#39;replyto&#39;);" class="iconbutton cancel" title="Smazat" tabindex="3">Smazat Odpověď na</a>
+		</td>
+		<td class="editfield"><input name="_replyto" spellcheck="false" id="_replyto" size="70" tabindex="1" value="" type="text" autocomplete="off" aria-autocomplete="list" aria-expanded="false" role="combobox"></td>
+	</tr><tr id="compose-followupto">
+		<td class="title top">
+			<label for="_followupto">Následuje-po</label>
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#followupto" onclick="return UI.hide_header_row(&#39;followupto&#39;);" class="iconbutton cancel" title="Smazat" tabindex="3">Smazat Následuje-po</a>
+		</td>
+		<td class="editfield"><input name="_followupto" spellcheck="false" id="_followupto" size="70" tabindex="1" value="" type="text" autocomplete="off" aria-autocomplete="list" aria-expanded="false" role="combobox"></td>
+	</tr><tr>
+		<td></td>
+		<td class="formlinks">
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#cc" onclick="return UI.show_header_row(&#39;cc&#39;)" id="cc-link" class="iconlink add" tabindex="3">Přidat pole "Kopie</a>
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#bcc" onclick="return UI.show_header_row(&#39;bcc&#39;)" id="bcc-link" class="iconlink add" tabindex="3">Přidat pole "Skrytá kopie</a>
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#reply-to" onclick="return UI.show_header_row(&#39;replyto&#39;)" id="replyto-link" class="iconlink add" tabindex="3">Přidat pole "Odpověď</a>
+			<a href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#followup-to" onclick="return UI.show_header_row(&#39;followupto&#39;)" id="followupto-link" class="iconlink add" tabindex="3">Přidat pole "Followup-To</a>
+		</td>
+	</tr><tr>
+		<td class="title"><label for="compose-subject">Předmět</label></td>
+		<td class="editfield"><input name="_subject" id="compose-subject" tabindex="1" spellcheck="true" value="Re: Zkouska dnes" type="text"></td>
+	</tr>
+</tbody>
+</table>
+
+<div id="composebuttons" class="formbuttons">
+	<a class="button extwin" title="Otevřít v novém okně" id="rcmbtn122" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;extwin&#39;,&#39;&#39;,this,event)" tabindex="0" aria-disabled="false"><span class="icon">Otevřít v novém okně</span></a>
+</div>
+
+<!-- (collapsible) message options -->
+<div id="composeoptions" role="region" aria-labelledby="aria-label-composeoptions" style="display: block;">
+	<h2 id="aria-label-composeoptions" class="voice">Možnosti kompozice</h2>
+		<span class="composeoption">
+		<label>Typ editoru zpráv
+			<select name="editorSelector" tabindex="4" onchange="return rcmail.command(&#39;toggle-editor&#39;, {id: &#39;composebody&#39;, html: this.value == &#39;html&#39;}, &#39;&#39;, event)">
+<option value="html">HTML</option>
+<option value="plain" selected="">Prostý text</option>
+</select>
+</label>
+	</span>
+		<span class="composeoption">
+		<label for="rcmcomposepriority">Priorita
+			<select name="_priority" id="rcmcomposepriority" tabindex="4">
+<option value="5">Nejnižší</option>
+<option value="4">Nízká</option>
+<option value="0" selected="">Normální</option>
+<option value="2">Vysoká</option>
+<option value="1">Nejvyšší</option>
+</select>
+</label>
+	</span>
+		<span class="composeoption">
+		<label><input name="_mdn" id="rcmcomposereceipt" tabindex="4" value="1" type="checkbox"> Doručenka</label>
+	</span>
+			<span class="composeoption">
+		<label><input name="_dsn" id="rcmcomposedsn" tabindex="4" value="1" type="checkbox"> Stav doručení</label>
+	</span>
+			<span class="composeoption">
+		<label>Ukládat odeslané zprávy v <select name="_store_target" style="max-width:12em" tabindex="4">
+<option value="">- neukládat -</option>
+<option value="INBOX">Příchozí pošta</option>
+<option value="Drafts">Rozepsané</option>
+<option value="Sent" selected="">Odeslané</option>
+<option value="Junk">Spam</option>
+<option value="Trash">Koš</option>
+</select>
+</label>
+	</span>
+		
+</div>
+
+</div>
+
+<!-- message compose body -->
+<div id="composeview-bottom" style="height: 608px;">
+	<div id="composebodycontainer">
+		<label for="composebody" class="voice">Tělo zprávy</label>
+		
+<input type="hidden" name="_draft_saveid"><input type="hidden" name="_draft" value=""><input type="hidden" name="_is_html" value="0"><input type="hidden" name="_framed" value="1">
+<textarea name="_message" id="composebody" cols="70" rows="20" tabindex="1" style="width: 1364px; height: 600px;">Dne 2019-06-10 15:07, Tomáš Martinec napsal:
+&gt; Ahoj,
+&gt; 
+&gt; co sejit se v 18:00 a pripravit se na prezentaci? Vite nejake background
+&gt; info o tom, jak to probiha... na co se pri prezentaci zamerit?
+&gt; 
+&gt; Diky,
+&gt; Tomas
+</textarea>
+<iframe name="savetarget" src="./CVUT FIT Roundcube __ Napsat zprávu_files/blank.html" style="width:0;height:0;border:none;visibility:hidden;" aria-hidden="true"></iframe>
+	</div>
+	<div id="compose-attachments" class="rightcol droptarget" role="region" aria-labelledby="aria-label-composeattachments">
+		<h2 id="aria-label-composeattachments" class="voice">Přílohy</h2>
+		<div style="text-align:center; margin-bottom:10px">
+            <div class="hint">Maximální povolená velikost souboru je 2,0 MB</div>
+
+			<a class="button" tabindex="1" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="rcmail.upload_input(&#39;uploadform&#39;)">Přidat přílohu</a>
+		</div>
+		<ul id="attachment-list" class="attachmentslist" data-tabindex="1">
+</ul>
+
+		
+	</div>
+<!--
+	<div id="composeformbuttons" class="footerleft formbuttons floating">
+		<input type="button" class="button mainaction" tabindex="11" id="rcmbtn123" onclick="return rcmail.command('send','',this,event)" value="Odeslat zprávu nyní" disabled>
+		<input type="button" class="button" tabindex="12" id="rcmbtn124" onclick="return rcmail.command('savedraft','',this,event)" value="Uložit do rozepsaných" disabled>
+		<input type="button" class="button" tabindex="13" id="rcmbtn125" onclick="return rcmail.command('list','',this,event)" value="Konec" disabled>
+	</div>
+-->
+</div>
+
+</form>
+
+</div><!-- end mailview-right -->
+
+<div id="composesplitterv" unselectable="on" role="presentation" class="splitter splitter-v" style="left: 203px; top: 0px;"></div></div><!-- end mainscreencontent -->
+
+</div><!-- end mainscreen -->
+
+<div id="uploadform"><form id="uploadformFrm" name="uploadform" method="post" enctype="multipart/form-data" class="smart-upload" action="https://imap.fit.cvut.cz/roundcube/?_task=mail">
+<input type="hidden" name="_token" value="rxlsDrrHEQAW1mAhCORPZXxufRhLz2MF"><input multiple="" id="uploadformInput" type="file" name="_attachments[]" onchange="rcmail.command(&#39;send-attachment&#39;, this.form); this.value=null" class="smart-upload" tabindex="-1"></form>
+</div>
+
+
+<div id="spellmenu" class="popupmenu" aria-hidden="true"></div>
+
+<div id="responsesmenu" class="popupmenu" aria-hidden="true">
+	<h3 id="aria-label-responsesmenu" class="voice">Menu pro předpřipravené odpovědi</h3>
+	<ul class="toolbarmenu" id="textresponsesmenu" role="menu" aria-labelledby="aria-label-responsesmenu">
+		<li role="separator" class="separator" id=""><label>Vložit odpověd</label></li>
+		<ul id="responseslist"></ul>
+		<li role="separator" class="separator"><label>Spravovat odpovědi</label></li>
+		<li role="menuitem"><a unselectable="on" id="rcmbtn126" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;save-response&#39;,&#39;&#39;,this,event)" class="active" tabindex="0" aria-disabled="false">Vytvořit novou odpověď</a></li>
+		<li role="menuitem"><a id="rcmbtn127" role="button" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;responses&#39;,&#39;&#39;,this,event)" class="active" tabindex="0" aria-disabled="false">Upravit odpovědi</a></li>
+	</ul>
+</div>
+
+<div id="attachmentmenu" class="popupmenu" aria-hidden="true">
+	<ul class="toolbarmenu" id="attachmentoptionsmenu" role="menu">
+		<li role="menuitem"><a id="attachmenuopen" class="icon active" role="button" tabindex="0" aria-disabled="false" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;open-attachment&#39;,&#39;&#39;,this,event)"><span class="icon extwin">Otevřít</span></a></li>
+		<li role="menuitem"><a id="attachmenudownload" class="icon active" role="button" tabindex="0" aria-disabled="false" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;download-attachment&#39;,&#39;&#39;,this,event)"><span class="icon download">stáhnout</span></a></li>
+		<li role="menuitem"><a id="attachmenurename" class="icon active" role="button" tabindex="0" aria-disabled="false" href="https://imap.fit.cvut.cz/roundcube/?_task=mail&amp;_action=compose&amp;_id=18722858895cfe5a4c0bdc3#" onclick="return rcmail.command(&#39;rename-attachment&#39;,&#39;&#39;,this,event)"><span class="icon rename">Přejmenovat</span></a></li>
+		
+	</ul>
+</div>
+
+<div id="messagestack"></div>
+
+<script type="text/javascript">
+if (!window.UI) { var UI = new rcube_mail_ui(); }
+</script>
+
+
+<script type="text/javascript">
+
+jQuery.extend(jQuery.ui.dialog.prototype.options.position, {
+                using: function(pos) {
+                    var me = jQuery(this),
+                        offset = me.css(pos).offset(),
+                        topOffset = offset.top - 12;
+                    if (topOffset < 0)
+                        me.css('top', pos.top - topOffset);
+                    if (offset.left + me.outerWidth() + 12 > jQuery(window).width())
+                        me.css('left', pos.left - 12);
+                }
+            });
+var googie = new GoogieSpell('skins/larry/images/googiespell/','./?_task=utils&_action=spell&_remote=1&lang=', false);
+googie.lang_chck_spell = "Zkontrolovat pravopis";
+googie.lang_rsm_edt = "Pokračovat v úpravách";
+googie.lang_close = "Zavřít";
+googie.lang_revert = "Přejít na";
+googie.lang_no_error_found = "Nebyly nalezeny žádné chyby";
+googie.lang_learn_word = "Přidat do slovníku";
+googie.setLanguages({"ar":"Arabic (\u0627\u0644\u0639\u0631\u0628\u064a\u0629)","am":"Armenian (\u0540\u0561\u0575\u0565\u0580\u0565\u0576)","eu":"Basque (Euskara)","br":"Breton (Brezhoneg)","bg":"Bulgarian (\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438)","ca":"Catalan (Catal\u00e0)","hr":"Croatian (Hrvatski)","cs":"Czech (\u010cesky)","da":"Danish (Dansk)","nl":"Dutch (Nederlands)","en_GB":"English (GB)","en_US":"English (US)","eo":"Esperanto","et":"Estonian (Eesti)","fi":"Finnish (Suomi)","fr_FR":"French (Fran\u00e7ais)","gl":"Galician (Galego)","de_DE":"German (Deutsch)","de_CH":"German (Schweiz)","el":"Greek (\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac)","he":"Hebrew (\u05e2\u05d1\u05e8\u05d9\u05ea)","hu":"Hungarian (Magyar)","is":"Icelandic (\u00cdslenska)","ga":"Irish (Gaedhilge)","it":"Italian (Italiano)","ku":"Kurdish (Kurmanc\u00ee)","lv":"Latvian (Latvie\u0161u)","lt":"Lithuanian (Lietuvi\u0161kai)","fa":"Persian (\u0641\u0627\u0631\u0633\u06cc)","pl":"Polish (Polski)","pt_BR":"Portuguese (Brasil)","pt_PT":"Portuguese (Portugu\u00eas)","ro":"Romanian (Rom\u00e2ne\u015fte)","ru":"Russian (\u0420\u0443\u0441\u0441\u043a\u0438\u0439)","sk":"Slovak (Sloven\u010dina)","sl":"Slovenian (Sloven\u0161\u010dina)","es":"Spanish (Espa\u00f1ol)","sv":"Swedish (Svenska)","uk":"Ukrainian (\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430)","cy":"Welsh (Cymraeg)"});
+googie.setCurrentLanguage('cs');
+googie.setDecoration(false);
+googie.decorateTextarea('composebody');
+$(document).ready(function(){ 
+rcmail.init();
+});
+</script>
+
+
+</body></html>

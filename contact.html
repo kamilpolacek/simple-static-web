@@ -1,0 +1,114 @@
+ <!doctype html>
+ <html lang="en">
+
+ <head>
+   <meta charset="utf-8">
+
+   <title>Kamil Polacek - contact</title>
+   <meta name="description" content="contact">
+   <meta name="keywords" content="kamil polacek, contact, e-mail, map, information">
+   <meta name="author" content="Kamil Polacek">
+   <meta name="viewport" content="initial-scale=1" />
+
+   <!-- FIVICON -->
+   <link rel="apple-touch-icon" sizes="180x180" href="/home/kamil/Desktop/programovani/zwu/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/home/kamil/Desktop/programovani/zwu/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/home/kamil/Desktop/programovani/zwu/favicon/favicon-16x16.png">
+   <link rel="manifest" href="/home/kamil/Desktop/programovani/zwu/favicon/site.webmanifest">
+   <link rel="mask-icon" href="/home/kamil/Desktop/programovani/zwu/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+
+   <!-- STYLING -->
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/print.css">
+   <link rel="stylesheet" href="css/responzive.css">
+
+   <!-- FONTS -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script"> <!-- font for logo -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel"> <!-- font for headers -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> <!-- font for navigation -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"> <!-- font for paragraphs, text in general -->
+
+   <!-- SEARCH ICON -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+ </head>
+
+ <body>
+   <div id="wrapper">
+     <div id="header">
+       <a id="logo" href="index.html">Kamil Poláček</a>
+       <form id="search_form" action="result.html">
+         <input type="text" placeholder="search">
+         <button type="submit"><span class="fa fa-search"></span></button>
+       </form>
+       <nav id="main_navigation">
+         <ol>
+           <li><a href="articles.html">Articles</a></li>
+           <li><a href="videos.html">Videos</a></li>
+           <li><a href="aboutme.html">About me</a></li>
+           <li><a class="current_page">Contact</a></li>
+         </ol>
+       </nav>
+     </div>
+
+     <div id="content">
+       <div id="contribution_wrapper">
+         <h1>Contact</h1>
+         <p class="h1_description"><em>Contains information about my current place of residence and form of contact.
+            If you do wish to contact me, please use the following contact form.</em></p>
+         <div id=contact>
+           <h2>Place of my residence</h2>
+           <p class="h1_description"><em>On the left is my address for emergency cases, if you are stuck, you can also use map, red circle indicates where I live.</em></p>
+
+           <figure>
+             <img src="images/map.jpg" alt="map my location alt-image">
+           </figure>
+
+           <dl>
+            <dt>Name: </dt>
+            <dd>Kamil</dd>
+            <dt>Surname: </dt>
+            <dd>Polacek</dd>
+            <dt>State: </dt>
+            <dd>Czech Republic</dd>
+            <dt>City:</dt>
+            <dd>Prague</dd>
+            <dt>Street: </dt>
+            <dd>Generala Janouska 888/38</dd>
+            <dt>Postcode: </dt>
+            <dd>198 00</dd>
+          </dl>
+          <h2>Contact form</h2>
+          <p class="h1_description"><em>Sends email to kamil-polacek@seznam.cz. Email is the main form of communication with me.</em></p>
+
+           <form id="email_form" action="https://formspree.io/kamil-polacek@seznam.cz" method="POST">
+             <fieldset>
+               <label for="email">email</label>
+               <input type="text" id="email" name="email" placeholder="Your email">
+               <label for="subject">message</label>
+               <textarea id="subject" name="subject" placeholder="Message content"></textarea>
+
+               <input type="submit" value="Submit">
+             </fieldset>
+           </form>
+         </div>
+
+
+       </div>
+     </div>
+   </div>
+
+   <footer>
+     <div id="footer">
+       <span>
+         Kamil Poláček &#169;2019
+       </span>
+     </div>
+   </footer>
+
+
+ </body>
+
+ </html>

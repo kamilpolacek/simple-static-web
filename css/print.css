@@ -1,0 +1,129 @@
+@media print {
+  #reflection_section, #lyric_section {
+    float: none;
+    width: 100%;
+    page-break-after: always;
+  }
+
+  figure {
+    display: none;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  form {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+  #crumb_navigation {
+    display: none;
+  }
+
+  #header {
+    display: none;
+  }
+
+  #contribution_wrapper {
+    width: 100%;
+  }
+
+  #archive {
+    display: none;
+  }
+
+  #reflection {
+    width: 100%;
+  }
+
+  #lyric {
+    margin-top: 2.5em;
+    width: 40%;
+  }
+
+  #video {
+    margin-top: 2.5em;
+  }
+
+  #aboutme {
+    margin-top: 2.5em;
+    width: 80%;
+  }
+
+  #video_list li {
+    height: 20em;
+  }
+
+  #reflection_navigation {
+    display: none;
+  }
+
+  #contact figure {
+    display: block;
+  }
+
+  #contact img {
+    margin: 1em;
+    float: none;
+    width: 100%;
+  }
+
+  #vote {
+    display: none;
+  }
+
+  #new_posts {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+
+  #content, #page {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+
+
+  @page {
+    margin: 2cm
+  }
+
+
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2, h3, h4 {
+    font-size: 14pt;
+    margin-top: 25px;
+  }
+
+  a {
+    page-break-inside: avoid
+  }
+
+  blockquote {
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid
+  }
+
+
+
+
+  ul, ol, dl {
+    page-break-before: avoid
+  }
+
+}

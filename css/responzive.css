@@ -1,0 +1,338 @@
+@media only screen and (max-width:1400px) {
+  #reflection {
+    width: 35%;
+  }
+
+  #contribution_wrapper {
+    width: 75%;
+  }
+
+  #reflection_navigation {
+    position: inherit;
+    margin-bottom: 2.2em;
+  }
+
+  #reflection_navigation h2 {
+    margin: 0.6em 0 0 0;
+  }
+
+  #reflection_navigation li a {
+    font-weight: normal;
+  }
+
+  #lyric {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  #header {
+    width: 100%;
+  }
+
+  #search_form {
+    position: inherit;
+    margin: 0 auto 1em;
+  }
+
+  #contribution_wrapper {
+    width: 85%;
+  }
+
+  #new_posts, #vote {
+    float: none;
+    margin: 0 auto;
+  }
+
+  #new_posts {
+    width: 90%;
+  }
+
+  #new_posts h2 {
+    margin-top: 1em;
+  }
+
+  #vote {
+    width: 40%;
+    padding: 0;
+  }
+
+  #video_list li {
+    float: none;
+    width: 75%;
+    height: 25em;
+  }
+
+  #video_list img {
+    width: 60%;
+    height: 15em;
+  }
+
+  #reflection {
+    width: 45%;
+  }
+
+  #reflection_navigation {
+    position: inherit;
+    margin-bottom: 2.5em;
+  }
+
+  #reflection_navigation h2 {
+    margin: 10px 0 0 0;
+  }
+
+  #reflection_navigation li a {
+    font-weight: normal;
+  }
+
+  #lyric {
+    width: 30%;
+  }
+
+  #video {
+    float: none;
+    width: 70%;
+  }
+
+  #similar_videos {
+    float: none;
+    width: 30%;
+    margin: 1em auto;
+  }
+
+  #lyric_section, #reflection_section {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #reflection {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  #email_form {
+    margin-top: 2em;
+  }
+
+  #contact dl {
+    margin: 1em auto;
+  }
+
+  #contact dt {
+    float: left;
+  }
+
+  #contact img {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  #contribution_wrapper {
+    width: 100%;
+  }
+
+  #main_navigation li {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #contact dl {d
+    margin: 1em auto;
+  }
+
+  #contribution_wrapper a {
+    display: block;
+  }
+
+  #video_list li {
+    float: none;
+    width: 85%;
+    height: 22em;
+  }
+
+  #video_list img {
+    width: 50%;
+    height: 10em;
+  }
+
+  #video {
+    margin: auto;
+    width: 80%;
+  }
+
+  #lyric {
+    width: 40%;
+  }
+
+  #similar_videos {
+    width: 40%;
+  }
+  #reflection {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .h1_description_2 {
+    margin-bottom: 0.4em;
+  }
+
+  #reflection_section, #lyric_section {
+    width: 100%;
+  }
+
+  ul li .contribution {
+    width: 80%;
+    padding: 0;
+
+  }
+
+  #new_posts li {
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width:480px) {
+  ol {
+    width: 100%;
+  }
+   .contribution {
+    width: 95% !important;
+  }
+
+
+
+  #video_list {
+    width: 100%;
+  }
+
+  #video_list li {
+    float: none;
+    width: 90%;
+    height: 20em;
+  }
+
+  #video_list img {
+    width: 40%;
+    height: 8em;
+  }
+
+  #lyric {
+    width: 60%;
+  }
+
+  #video iframe {
+    height: 20em;
+  }
+
+  #similar_videos {
+    width: 50%;
+  }
+
+  #contact dl {
+    margin: 1em;
+  }
+
+  #new_posts {
+    width: 100%;
+  }
+
+  #vote {
+    width: 60%;
+  }
+
+  /**/
+  #reflection {
+    width: 95%;
+  }
+
+  #reflection figure {
+    display: none;
+  }
+
+  #video_list li {
+    float: none;
+    width: 100%;
+    height: 17em;
+  }
+
+  #video_list img {
+    width: 30%;
+    height: 3em;
+  }
+
+  #video {
+    width: 100%;
+  }
+
+  #lyric {
+    width: 80%;
+  }
+
+  #contact dl {
+    display: none;
+  }
+
+  #new_posts li {
+    width: 100%;
+    text-align: center;
+  }
+
+  #vote {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:320px) {
+
+  #reflection figure {
+    display: none;
+  }
+
+  #video_list li {
+    float: none;
+    width: 100%;
+    height: 17em;
+  }
+
+  #video_list img {
+    width: 30%;
+    height: 3em;
+  }
+
+  #video {
+    width: 100%;
+  }
+
+  #lyric {
+    width: 80%;
+  }
+
+  #contact dl {
+    display: none;
+  }
+
+  #new_posts li {
+    width: 100%;
+    text-align: center;
+  }
+
+  #vote {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:248px) {
+  #video_list li {
+    float: none;
+    width: 100%;
+    height: 17em;
+  }
+
+  #video_list img {
+    display: none
+  }
+}
